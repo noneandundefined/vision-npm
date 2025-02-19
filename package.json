@@ -1,0 +1,40 @@
+{
+	"name": "@artemiik/vision-js",
+	"description": "Keep up to date with what is happening on your server using - Vision",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "./dist/vision.bundle.js",
+	"unpkg": "./dist/vision.bundle.js",
+	"homepage": "https://github.com/noneandundefined/vision-js-ts",
+	"repository": "git@github.com:noneandundefined/vision-js-ts.git",
+	"files": [
+		"./dist/vision.npm.bundle.js"
+	],
+	"keywords": [
+		"vision",
+		"vision-js",
+		"vision-ts",
+		"monitoring",
+		"metrics"
+	],
+	"author": "Artemiik",
+	"license": "MIT",
+	"scripts": {
+		"install:prod": "set NODE_ENV=production&& pnpm install",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"build": "webpack --config webpack.config.cjs"
+	},
+	"devDependencies": {
+		"prettier": "^3.5.1",
+		"ts-loader": "^9.5.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3",
+		"webpack": "^5.98.0",
+		"webpack-cli": "^6.0.1"
+	},
+	"dependencies": {
+		"os-browserify": "^0.3.0",
+		"stream-browserify": "^3.0.0"
+	}
+}
