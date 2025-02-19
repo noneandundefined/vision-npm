@@ -3,7 +3,7 @@
     <img width="150" src="https://github.com/noneandundefined/vision-ui/blob/main/public/logo-vision-none.png" alt="Vision logo">
   </a>
   <a href="" target="_blank" rel="noopener noreferrer">
-    <img width="100" src="https://github.com/noneandundefined/vision-js-ts/blob/main/public/js.png" alt="JS logo">
+    <img width="50" src="https://github.com/noneandundefined/vision-js-ts/blob/main/public/js.png" alt="JS logo">
   </a>
 </p>
 </br>
